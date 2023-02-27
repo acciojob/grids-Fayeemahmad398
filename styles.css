@@ -1,44 +1,46 @@
+ .my-container {
+        border: 5px solid #4eef4f;
+        padding: 2px;
+        background: #ffbaba;
+    }
 
-/* Your CSS Code here. */
-.container{
-border:5px solid rgb(78 238 79 / 1);
-	background-color:#ffbbb9;
-/* 	padding:5px; */
-	
-}
-.Row1-col1{
-	background-color:#008081;
-	border:2px dotted black;
-}
-.Row1-col2{
-	border:2px dotted black;
-	background-color:#d7bfd7;
-}
-.Row2-col1{
-	background-color:#fe6347;
-	border:2px dotted black;
-}
-.Row2-col2{
-	background-color:#3fe0d0;
-	border:2px dotted black;
-}
-.Row3-col1{
-	background-color:#ee82ef;
-	border:2px dotted black;
-}
-.Row3-col2{
-background-color:#9acd32;
-	border:2px dotted black;
-}
-.black-box{
-	background-color:black;
-	border:2px dotted black;
-	
-}
-.row div{
-	height:190px;
-	
-}
+    .r1c1 {
+        background-color: #008081;
+        height: 190px;
 
+    }
 
+    .r1c2 {
+        height: 190px;
 
+        background: #d7bfd7;
+    }
+
+    .r2c1 {
+        height: 190px;
+
+        background: #fe6347;
+    }
+
+    .r2c2 {
+        height: 190px;
+
+        background: #3fe0d0;
+    }
+
+    .r3c1 {
+        background: #ee82ef;
+        height: 190px;
+
+    }
+
+    .r3c2 {
+        background: #9acd32;
+        height: 190px;
+
+    }
+
+    .my-container div {
+        border: 1px dotted black;
+
+    }
